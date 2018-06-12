@@ -1,0 +1,12 @@
+Git command
+1. git config --global user.name "Your Name"
+   git config --global user.email "abc@gmail.com"
+        
+2.git init
+3git status
+4.git add .
+5.git commit -m "any message about code "
+5.git push
+6.git log
+7.git branch
+8.git merge 
