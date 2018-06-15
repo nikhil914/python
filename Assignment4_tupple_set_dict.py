@@ -35,6 +35,10 @@ s2=set(l1)
 print(s1)
 print(s2)
 print(s1-s2) 		#difference of two sets
+if s1==s2:
+	print("sets are equal")
+else:
+	print("sets are not equal")
 print(s1&s2)
 print("\n\n\n")
 
@@ -42,8 +46,8 @@ print("question no 5 & 6 ")
 d={}
 l=[]
 for a in range(0,10):
-	name=input("enter a name ")
-	marks=int(input("enter any marks "))
+	name=input("enter a name:")
+	marks=int(input("enter any marks: "))
 	l.append(marks)
 	d[name]=marks
 print(d)
@@ -60,5 +64,4 @@ c=m.count('S')
 d=m.count('P')
 g={'M':a,'I':b,'S':c,'P':d}
 print("the dictionary of MISSISSIPPI of each letter is",g)
-print("\n\n\n")
-
+print("\n\n") 
