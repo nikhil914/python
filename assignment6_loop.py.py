@@ -88,6 +88,8 @@ for a in range(0,10):
 	n=input("enter a key:")
 	m=input("enter any values: ")
 	d[n]=m
+for key in d.keys():
+    print(key,d[key])
 print(d)
 print("\n\n")
 
