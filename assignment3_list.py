@@ -27,7 +27,7 @@ print("\n\n\n")
 
 print("question no 3")
 y=[1,2,1,4,2,3,2,2,3,2]
-print("the list is"y)
+print("the list is",y)
 print("the no of 2 in above list ",y.count(2))
 print("\n\n\n")
 
@@ -53,7 +53,9 @@ p.append(int(input("enter any no to push in stack ")))   #for adding a new eleme
 p.append(int(input("enter any no to push in stack ")))
 p.append(int(input("enter any no to push in stack ")))
 print(p)
-p.pop()                                    #for removing a element from list(stack)
+del p[0]								 #for removing a element from list(queue)
+del p[0]								 #for removing a element from list(queue)
+                                    #for removing a element from list(stack)
 print('after pop the stack is',p)
 print("\n\n\n")
 
@@ -72,7 +74,7 @@ v=0
 n=0
 q=[4,5,6,7,8,9,10,2,12,15]
 print("list is",q)
-for a in range(0,10):
+for a in range q:
 	if q[a]%2==0:			# checking even no
 		v=v+1 
 	if q[a]%2!=0:			#checking odd no
