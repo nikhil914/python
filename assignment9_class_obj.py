@@ -24,9 +24,10 @@ class student:
         self.name=name
         self.roll=roll
     def display(self):
-        print(self.name,self.roll)
+        print("name:",self.name)
+        print("roll no:",self.roll)
 n=input("enter any name:")
-r=input("enter rollno")
+r=input("enter rollno:")
 o=student(n,r)
 o.display()
 print("\n\n")
@@ -73,13 +74,10 @@ class movie_details:
         self.artist_name=input("artist name:")
         self.year_of_relese=input("enter year of relese:")
         self.ratings=input("enter rating:")
-        print("movie name:", self.movie_name)
-        print("artist name", self.artist_name)
-        print("year of relese:", self.year_of_relese)
-        print("rating:", self.ratings)
 m1=movie_details("3idiot","aamir khan","2009","5")
 m1.show()
 m1.update()
+m1.show()
 print("\n\n")
 
 
@@ -101,53 +99,6 @@ s=int(input("enter saving:"))
 sal=Expenditure(ex,s)
 sal.show()
 sal.total_salary()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
