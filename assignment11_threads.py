@@ -13,7 +13,7 @@ t.start()
 print("question no 02")
 def table():
     for x in range (1,11):
-        t.join()
+        t.join()	#only for purpose  display the result in sequence
         print(x)
         time.sleep(1)
 t1=Thread(target=table)
@@ -25,7 +25,7 @@ print("question no 03")
 def list_element_print():
     m=2
     for x in l:
-        t1.join()
+        t1.join()		#only for purpose  display the result in sequence
         print(x)
         time.sleep(m)
         m=m+2
@@ -37,7 +37,7 @@ t2.start()
 
 print("question no 04")
 def factorial():
-    t2.join()
+    t2.join()     #only for purpose  display the result in sequence
     x=int(input("enter any no to find factorial:"))
     fact=1
     for a in range(1,x+1):
