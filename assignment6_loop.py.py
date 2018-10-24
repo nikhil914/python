@@ -84,7 +84,7 @@ print("\n\n")
 
 print("question no 7")
 d={}
-for a in range(0,10):
+for a in range(0,10):				#0 inclusive 10 exclusive
 	n=input("enter a key:")
 	m=input("enter any values: ")
 	d[n]=m
