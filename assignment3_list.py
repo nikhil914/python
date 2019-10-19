@@ -21,7 +21,7 @@ print("\n\n\n")
 print("question no 2")
 x=['india','japan','chaina']
 x1=['google','apple','facebook','microsoft','tesle']
-x.extend(x1)
+x.extend(x1)	#extending the x list using extend function
 print(x)
 print("\n\n\n")
 
